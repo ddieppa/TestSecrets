@@ -7,16 +7,22 @@ namespace TestSecrets.Api.Controllers
     public class TestController : Controller
     {
         private readonly SampleService _sampleService;
+        private readonly MovieSettings _movieSettings;
 
-        public TestController(SampleService sampleService)
+        public TestController(SampleService sampleService, MovieSettings movieSettings)
         {
             _sampleService = sampleService;
+            _movieSettings = movieSettings;
         }
         // GET
         [HttpGet]
-        public string Index()
+        public string Get()
         {
-            return $"ApiKey: {_sampleService.ApiKey}";
+            var serviceApiKey = $"ApiKey: {_sampleService.ApiKey}";
+            var movieApiKey = $"Movies ApiKey: {_movieSettings.ServiceApiKey}";
+            var movieConnection = $"Movies Connection String: {_movieSettings.ConnectionString}";
+            return $"{movieApiKey}\n{movieConnection}";
+            
         }
     }
 }
