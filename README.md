@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Daniel - [@ddieppa](https://twitter.com/ddieppa)
 
-Project Link: [https://github.com/ddieppa/repo_name](https://github.com/ddieppa/repo_name)
+Project Link: [https://github.com/ddieppa/TestSecrets](https://github.com/ddieppa/TestSecrets)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
