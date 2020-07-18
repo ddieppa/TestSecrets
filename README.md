@@ -1,4 +1,5 @@
 ﻿
+![.NET Core](https://github.com/ddieppa/TestSecrets/workflows/.NET%20Core/badge.svg?branch=main)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
